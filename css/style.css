@@ -1,0 +1,30 @@
+.footer{
+    grid-area: footer;
+    background-color:#254750 ;
+}
+.redes{
+    list-style-type:none;
+      display:flex;
+      flex-direction:row;
+     justify-content: center;
+     align-items: center;
+         li{
+             margin:10px;
+             color:#fff5f5;
+             font-size: 1.5rem;
+        }
+ }
+
+  .footer__barra-contacto{
+     display:flex;
+     flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+     color:#ffffff;
+     margin:0px 30px;
+         ul{
+         margin-bottom: 0;
+        padding-left: 0;
+          }
+
+ }
